@@ -1,0 +1,180 @@
+.global-a {
+    color: #212529 !important;
+    display: inline-block;
+    margin: 0 5px 0 0 ;
+}
+.global-a .status-label.blue {
+  color: #0055b7;
+}
+.global-a .status-label{
+    min-width: inherit;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    padding: 0;
+    line-height: 24px;
+}
+.global-a .status-label::before {
+    margin: 0;
+    display: none;
+}
+.global-a.uncheck .status-label {
+    background-color: #eee;
+    color: #999;
+}
+
+
+
+.email-main {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.group-email {
+  overflow: hidden;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.item-email {
+  position: relative;
+  display: block;
+  padding: 0 0 0 80px;
+}
+
+.email-to {
+  padding: 0 0 0 40px;
+}
+
+.item-email {
+  span {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    font-weight: bold;
+  }
+
+  input {
+    border: 0;
+    width: 100%;
+    height: 40px;
+    outline: none;
+  }
+
+  textarea {
+    border: 0;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    height: 150px;
+  }
+}
+
+.group-email:first-child .item-email {
+  width: 50%;
+  float: left;
+}
+
+.email-content {
+  padding: 0;
+
+  span {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 10px 10px 0 15px;
+    display: block;
+  }
+
+  textarea {
+    padding: 5px 15px 15px 15px;
+  }
+}
+
+.title-email {
+  background-color: #999;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.email-templete .line-button {
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.attachment-email {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #eee;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #008cd2;
+    color: #fff;
+  }
+}
+
+.email-templete {
+  .modal-content {
+    text-align: left;
+  }
+
+  .modal-header {
+    background-color: #333;
+    padding: 10px 15px;
+    color: #fff;
+  }
+
+  .close {
+    color: #fff;
+  }
+}
+
+.email-pdf {
+  max-width: 800px;
+  margin: auto;
+
+  hr {
+    margin: 30px 0;
+  }
+}
+
+.logo-eamil-pdf img {
+  height: 40px;
+}
+
+.date-email {
+  color: #999;
+  margin: 0 0 10px 0;
+}
+
+.num-price {
+  margin: 0 0 10px 0;
+
+  p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+
+    &:first-child {
+      border-right: 1px solid #ddd;
+      padding-right: 20px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.radio-price {
+  margin: 0 0 20px 0;
+  .radio-custom {
+    margin: 0 20px 0 0;
+  }
+}

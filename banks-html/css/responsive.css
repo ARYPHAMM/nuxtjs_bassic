@@ -1,0 +1,119 @@
+@media screen and (max-width:1100px) {
+
+    .main {
+      padding: 0 0 0 57px ;
+    }
+    .toggle-page .header {
+        width: calc(100vw - 214px) ;
+        margin-left: 157px;
+    }
+    .logo span {
+        opacity: 0;
+    }
+    .toggle-page .logo span {
+        opacity: 1;
+    }
+    .left-menu {
+        width: 57px;
+    }
+    .toggle-page .left-menu {
+      width: 214px;
+    }
+    .toggle-page .left-menu li a span {
+      opacity: 1;
+    }
+    .toggle-page .left-menu li a svg {
+      margin: 0 10px 0 0;
+    }
+    .left-menu li a span {
+        opacity: 0;
+    }
+    .left-menu li a {
+        padding: 8px 0 8px 3px;
+    }
+    .left-menu li.active a, .left-menu li a:hover {
+        background: none;
+    }
+    .toggle-page .left-menu li a {
+        padding: 8px;
+    }
+    .toggle-page .left-menu li.active a, .toggle-page .left-menu li a:hover {
+        background: #2A2725;
+    }
+    .content-main {
+        padding: 15px;
+    }
+    .icon-left-pannel {
+        display: block;
+        z-index: 99;
+    }
+    .icon-left-pannel.active {
+        left: 350px;
+    }
+    .left-pannel {
+        display: none;
+        position: absolute;
+        background: #fff;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .right-panel {
+        width: 100%;
+    }
+    .div-slide-table {
+        text-align: center;
+    }
+    .div-slide-table nav  {
+        display: inline-block;
+    }
+    .info-row .info-label {
+        width: 150px;
+    }
+    .info-row > div:last-child {
+        width: calc(100% - 150px);
+    }
+}
+@media screen and (max-width:800px) {
+    .div-slide {
+        display: block;
+    }
+    .div-slide > div {
+        margin-bottom: 10px;
+    }
+    .right-slide {
+        display: table;
+        width: 100%;
+    }
+    .but-comment li {
+        margin: 0 8px 0 0;
+    }
+    .row-fix {
+        display: block;
+    }
+    .row-fix .left-fix {
+        display: none;
+    }
+    .row-fix .left-fix, .row-fix .right-fix {
+        width: 100%;
+        margin:0
+    }
+    .form-search {
+        width: 200px;
+    }
+    .btn-add {
+        padding: 9px 12px;
+    }
+    .btn-add span {
+        display: none;
+    }
+    .filter-btn {
+        padding: 9px 12px;
+    }
+    .filter-btn span {
+        display: none;
+    }
+    .box-filter {
+        width: 250px;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/i18n": "^7.2.0",
+    "ckeditor4-vue": "^2.0.0",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "nuxt-route-meta": "^2.3.4",
+    "nuxt-socket-io": "^2.0.3",
+    "qs": "^6.10.3",
+    "vue-cool-lightbox": "^2.7.4",
+    "vue-select": "^3.18.3",
+    "vue-sweetalert2": "^5.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1"
+  }
+}

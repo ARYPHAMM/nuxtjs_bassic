@@ -1,0 +1,899 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title></title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="icons/style.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <!-- Javascript -->
+
+        
+<body>
+
+
+
+    <div class="main">
+
+        
+    <header class="header">
+        <div class="nav-click"><span></span><span></span><span></span></div>
+
+        <div class="right-header">
+        <div class="nofi-top">
+            <div class="nofi-a a-dropdown">
+                <i class="icon-bell"></i>
+                <span>3</span>
+            </div>
+            <div class="nofi-content box-dropdown">
+                <div class="nofi-title">
+                    <h3>Thông báo</h3>
+                    <span>Tất cả đã đọc</span>
+                </div>
+                <div class="scroll-nofi">
+                    <ul>
+                        <li>
+                            <i class="icon-vay-moi"></i>
+                            <strong>Đề nghị vay mới</strong><br>
+                            ngân hàng đã nhận đang chờ bạn đồng ý.
+                            <span class="date-label">a few seconds ago</span>
+                        </li>
+                        <li>
+                            <i class="icon-bankers"></i>
+                            <strong>Nhân Trần</strong> đã trả lời một bình luận về bài viết của bạn: Bài viết rất bổ ích...
+                            <span class="date-label">3 Hours ago</span>
+                        </li>
+                        <li>
+                            <i class="icon-vay-moi"></i>
+                            <strong>Đề nghị vay mới</strong><br>
+                            ngân hàng đã nhận đang chờ bạn đồng ý.
+                            <span class="date-label">a few seconds ago</span>
+                        </li>
+                        <li>
+                            <i class="icon-bankers"></i>
+                            <strong>Nhân Trần</strong> đã trả lời một bình luận về bài viết của bạn: Bài viết rất bổ ích...
+                            <span class="date-label">3 Hours ago</span>
+                        </li>
+                    </ul>
+                </div>
+            <div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 5px; z-index: 999; background: rgba(0, 0, 0, 0.1); position: absolute; cursor: default; top: 40px; left: 295px; height: 325px; display: block; opacity: 0;"><div class="nicescroll-cursors" style="position: relative; float: right; width: 5px; background-color: rgb(51, 51, 51); background-clip: padding-box; border-radius: 0px; height: 261px; top: 0px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 5px; z-index: 999; background: rgba(0, 0, 0, 0.1); position: absolute; cursor: default; display: none; top: 360px; left: 0px; width: 295px; opacity: 0;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 5px; background-color: rgb(51, 51, 51); background-clip: padding-box; border-radius: 0px; width: 300px; left: 0px;"></div></div></div>
+        </div>
+
+        <div class="menu-user dropdown">
+            <div class="user-avarta" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <span class="span-orange">AD</span>
+               Admin  <i class="icon-down"></i>
+            </div>
+           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a href="profile.html">
+                    <i class="icon-users"></i>
+                    <span>Profile</span>
+                </a>
+                <a href="#">
+                    <i class="icon-logout"></i>
+                    <span>Logout</span>
+                </a>
+              </div>
+        </div>
+        </div>
+    </header>
+
+        <div class="left-menu">
+            <div class="logo"><img src="images/logo.png"><span>Ngân hàng <strong>Banks</strong></span></div>
+            <ul>
+                <li class="active"><a href="admin-de-nghi-vay-moi.html"><i class="icon-vay-moi"></i><span>Đề nghị vay mới</span></a></li>
+                <li><a href="ho-so-da-vay.html"><i class="icon-hoso"></i><span>Hồ sơ đã vay</span></a></li>
+                <li><a href="bankers.html"><i class="icon-bankers"></i><span>Nhật ký bankers</span></a></li>
+                <li><a href="friends.html"><i class="icon-users"></i><span>Kết bạn  </span></a></li>
+                <li><a href="chat.html"><i class="icon-chat"></i><span>Chat</span></a></li>
+                <li><a href="baocao.html"><i class="icon-report"></i><span>Xem báo cáo</span></a></li>
+                <li><a href="admin-quanlynhansu.html"><i class="icon-manage"></i><span>Quản lý</span></a></li>
+            </ul>
+        </div>
+        <div class="content-main">
+            <div class="top-main">
+                <div class="left-top-main">
+                    <h2>Danh sách bạn bè</h2>
+                </div>
+                <div class="right-top-main">
+                    <div class="form-search">
+                        <button><i class="icon-loupe"></i></button>
+                        <input type="text" class="form-control" placeholder="Tìm kiếm">
+                    </div>
+                    <div class="filter-top">
+                        <button class="btn btn-outline-secondary filter-btn"><i class="icon-filter"></i> <span>Filter</span></button>
+                        <div class="box-filter">
+                            <div class="form-group">
+                                <label>Trạng thái</label>
+                                <select class="form-control">
+                                    <option>Tất cả</option>
+                                    <option>Đang chờ kí</option>
+                                    <option>Đang chờ đồng ý</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Loại hình</label>
+                                <select class="form-control">
+                                    <option>Tất cả</option>
+                                    <option>Doanh nghiệp</option>
+                                    <option>Tư nhân</option>
+                                </select>
+                            </div>
+                            <div class="text-right">
+                                <button type="button" class="btn btn-secondary close-filter" data-dismiss="modal">Đóng</button>
+                                <button type="button" class="btn btn-main">Filter</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div><button class="btn btn-main btn-add" data-toggle="modal" data-target="#add-credit"><i class="icon-plus"></i> <span>Thêm đề nghị vay</span></button></div>
+                </div>
+            </div>
+            <div class="panel">
+                
+                <div class="table-main table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Người vay</th>
+                                <th>
+                                    <div class="filter-table-box">
+                                        Ngày <div class="filter-table"><span class="filter-1 active"></span><span class="filter-2"></span></div>
+                                    </div>
+                                </th>
+                                <th>Loại hình</th>
+                                <th>
+                                    <div class="filter-table-box">
+                                        Số tiền vay <div class="filter-table"><span class="filter-1 active"></span><span class="filter-2"></span></div>
+                                    </div>
+                                </th>
+                                <th>Lãi xuất mong muốn</th>
+                                <th>Mục đích quay</th>
+                                <th>Tài sản thế chấp/cầm cố</th>
+                                <th>Trạng thái</th>
+                                <th class="fix-right"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-orange">NN</div>
+                                        <div><h3>Nguyễn Văn Nên</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-blue">HN</div>
+                                        <div><h3>Nguyễn Văn Huy</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-green">NN</div>
+                                        <div><h3>Nguyễn Văn Nhân</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-orange">NN</div>
+                                        <div><h3>Nguyễn Văn Nên</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-blue">HN</div>
+                                        <div><h3>Nguyễn Văn Huy</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-success">Đang chờ đồng ý</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-green">NN</div>
+                                        <div><h3>Nguyễn Văn Nhân</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-success">Đang chờ đồng ý</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-orange">NN</div>
+                                        <div><h3>Nguyễn Văn Nên</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-success">Đang chờ đồng ý</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-blue">HN</div>
+                                        <div><h3>Nguyễn Văn Huy</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-green">NN</div>
+                                        <div><h3>Nguyễn Văn Nhân</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-orange">NN</div>
+                                        <div><h3>Nguyễn Văn Nên</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-blue">HN</div>
+                                        <div><h3>Nguyễn Văn Huy</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-green">NN</div>
+                                        <div><h3>Nguyễn Văn Nhân</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-orange">NN</div>
+                                        <div><h3>Nguyễn Văn Nên</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-blue">HN</div>
+                                        <div><h3>Nguyễn Văn Huy</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-green">NN</div>
+                                        <div><h3>Nguyễn Văn Nhân</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-orange">NN</div>
+                                        <div><h3>Nguyễn Văn Nên</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-blue">HN</div>
+                                        <div><h3>Nguyễn Văn Huy</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-item">
+                                        <div class="user-img span-green">NN</div>
+                                        <div><h3>Nguyễn Văn Nhân</h3></div>
+                                    </div>
+                                </td>
+                                <td>30/04/2021</td>
+                                <td>Doanh nghiệp</td>
+                                <td><strong class="color-orange">300.000.00 Đ</strong></td>
+                                <td>5% / năm</td>
+                                <td>Đầu tư kinh doanh</td>
+                                <td>Căn nhà 500 m2  đường 3/2</td>
+                                <td><span class="badge rounded-pill bg-primary">Đang chờ kí</span></td>
+                                <td class="action-td fix-right" data-toggle="modal" data-target="#view-detail"><button type="button" class="btn btn-outline-secondary"><i class="icon-view"></i></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bottom-table">
+                    <div class="div-slide div-slide-table" >
+                        <div class="left-slide">
+                            1- 20 Trong số 30 
+                        </div>
+                        <div class="right-slide">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                      <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                              </nav>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <!-- panel -->
+
+        </div>
+        <!-- content main -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="view-detail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Đề nghị vay mới</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body modal-scroll">
+                <div class="row-progress">
+                    <ul>
+                        <li class="signed">
+                            <span><i class="icon-checked"></i></span>
+                            Phòng Kinh doanh
+                        </li>
+                        <li class="signed">
+                            <span><i class="icon-checked"></i></span>
+                            Trưởng phòng
+                        </li>
+                        <li class="signing">
+                            <span><i class="icon-checked"></i></span>
+                            Giám đốc chi nhánh
+                        </li>
+                        <li>
+                            <span><i class="icon-checked"></i></span>
+                            Phó tổng giám đốc
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <a href="#" class="btn btn-warning chat-info"><i class="icon-chat"></i></a>
+                    <h3>Thông tin Người vay</h3>
+                    <div class="info-row">
+                        <div class="info-label">Họ Tên</div>
+                        <div>Nguyễn Văn Nên</div>
+                     </div>
+                     <div class="info-row">
+                        <div class="info-label">Số điện thoại</div>
+                        <div>05644543424</div>
+                     </div>
+                     <div class="info-row">
+                        <div class="info-label">Email</div>
+                        <div>vananen@gmail.com</div>
+                     </div>
+                </div>
+                <div class="info-box">
+                    <h3>Thông tin vay</h3>
+                    
+                    <div class="info-row">
+                        <div class="info-label">Loại hình</div>
+                        <div>Doanh nghiệp</div>
+                     </div>
+                    <div class="info-row">
+                        <div class="info-label">Số tiền vay</div>
+                        <div>200.000.00 Đ</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Lãi xuất mong muốn</div>
+                        <div>5.5% / năm</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Nội dung vay</div>
+                        <div>Vay dự án</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Mục đích quay</div>
+                        <div>Mua bán</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Tài sản thế chấp/cầm cố</div>
+                        <div>Căn nhà 500 m2  đường 3/2</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Nội dung cần làm rõ</div>
+                        <div>Lãi xuất quá cao</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Ngày dự kiến hoàn thành</div>
+                        <div>20/04/2021</div>
+                    </div>
+                    
+                </div>
+                <div class="info-box">
+                    <h3>Người xử lý</h3>
+                    <div class="iten-sl">
+                        <div class="top-sl">
+                            <div class="user-item">
+                                <div class="user-img user-lg span-orange">CN</div>
+                                <div class="txt-item">
+                                    <h3>Nguyên Cao</h3>
+                                    <span class="color-s text-t-item">Phòng Kinh doanh</span>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-warning chat-info"><i class="icon-chat"></i></a>
+                        </div>
+                        <div class="history-list">
+                            <div class="history-item">
+                                <p> <Strong>Quét mã QR code</Strong> - <span class="color-s">30/10/2021</span></p>
+                                <p><span class="color-s">Nội dung cần làm rõ: </span> Nêu rõ hơn tài sản thế chấp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iten-sl">
+                        <div class="top-sl">
+                            <div class="user-item">
+                                <div class="user-img user-lg span-blue">HN</div>
+                                <div class="txt-item">
+                                    <h3>Nguyễn Văn Huy</h3>
+                                    <span class="color-s text-t-item"> Trưởng phòng</span>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-warning chat-info"><i class="icon-chat"></i></a>
+                        </div>
+                        <div class="history-list">
+                            <div class="history-item">
+                                <p> <Strong>Quét mã QR code</Strong> - <span class="color-s">30/10/2021</span></p>
+                                <p><span class="color-s">Nội dung cần làm rõ: </span> Nêu rõ hơn tài sản thế chấp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iten-sl">
+                        <div class="top-sl">
+                            <div class="user-item">
+                                <div class="user-img user-lg span-green">NN</div>
+                                <div class="txt-item">
+                                    <h3>Nguyễn Văn Nhân</h3>
+                                    <span class="color-s text-t-item">Giám đốc chi nhánh</span>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-warning chat-info"><i class="icon-chat"></i></a>
+                        </div>
+                        <div class="history-list">
+                            <div class="history-item">
+                                <p> <Strong>Quét mã QR code</Strong> - <span class="color-s">30/10/2021</span></p>
+                                <label>Nội dung cần làm rõ/điều kiện bổ sung</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <h3>Cấp phê duyệt cuối cùng</h3>
+                    <div class="iten-sl">
+                        <div class="top-sl top-sl-single">
+                            <div class="user-item">
+                                <div class="user-img user-lg span-green">HN</div>
+                                <div class="txt-item">
+                                    <h3>Nguyễn Văn Huy</h3>
+                                    <span class="color-s text-t-item">Phó tổng giám đốc</span>
+                                    <span  class="color-s text-t-item">Chi nhánh gò vấp</span>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-warning chat-info"><i class="icon-chat"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <h3>Lịch sử các điều chỉnh</h3>
+                    <div class="iten-sl">
+                        <div class="history-list">
+                            <div class="history-item">
+                                <p> <Strong>Nguyễn Văn B</Strong> - <span class="color-s">30/10/2021</span></p>
+                                <p><span class="color-s">Chỉnh sửa lãi xuất mong muốn</p>
+                            </div>
+                            <div class="history-item">
+                                <p> <Strong>Nguyễn Văn B</Strong> - <span class="color-s">30/10/2021</span></p>
+                                <p><span class="color-s">Chỉnh sửa lãi xuất mong muốn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-main">Nhận hồ sơ</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="add-credit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Thêm đề nghị vay</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body modal-scroll">
+                <label>Thông tin khách hàng</label>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Họ tên">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Sđt">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Loại hình</label>
+                    <div class="check-list mar-10">
+                        <label class="checkcontainer">Doanh nghiệp
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="radiobtn"></span>
+                        </label>
+                        <label class="checkcontainer">Cá nhân
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="radiobtn"></span>
+                        </label>
+                    </div>
+                    <select class="form-control"><option>Ngành nghề</option></select>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <div class="top-add">
+                                <label>Nội dung vay</label>
+                                <span class="but-add-item a-choose" data-toggle="modal" data-target="#add-item"><i class="icon-plus"></i> Chọn nội dung vay</span>
+                            </div>
+                            <div class="list-choose">
+                                <div class="item-choose">
+                                    <span class="close-item">×</span>
+                                    <div class="user-item">
+                                        <div class="txt-item">
+                                            <h3>Vay dự án</h3>
+                                            <spav class="color-s">Số tiền</spav> <span class="color-orange">1.000.000 Đ</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="item-choose">
+                                    <span class="close-item">×</span>
+                                    <div class="user-item">
+                                        <div class="txt-item">
+                                            <h3>Vay ngắn hạn</h3>
+                                            <spav class="color-s">Số tiền</spav> <span class="color-orange">1.000.000 Đ</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label>Lãi xuất mong muốn</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label>Tài sản thế chấp/cầm cố</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label> Nội dung cần làm rõ/điều kiện bổ sung</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="top-add">
+                        <label>Người sử lý</label>
+                    </div>
+                    <div class="list-choose">
+                       <div class="item-choose">
+                            <div class="user-item">
+                                <div class="user-img user-lg span-orange">CN</div>
+                                <div class="txt-item">
+                                    <h3>Nguyên Cao</h3>
+                                    <span class="color-s text-t-item">Phòng Kinh doanh</span>
+                                    <span class="color-s text-t-item">Chi nhánh gò vấp</span>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="top-add">
+                        <label>Cấp phê duyệt cuối cùng</label>
+                        <span class="but-add-item"><i class="icon-plus"></i> Chọn</span>
+                    </div>
+                    <div class="list-choose">
+                       <div class="item-choose">
+                           <spav class="color-s">Chưa có người được chọn</spav>
+                       </div>
+                    </div>
+                </div>
+               
+                <div class="form-group">
+                    <label>Thông báo đến những người sau</label>
+                    <div class="input-group form-group">
+                        <input type="text" class="form-control" placeholder="Nhâp số điện thoại">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">Thêm</button>
+                        </div>
+                    </div>
+                    <div class="list-choose">
+                        <div class="item-choose">
+                            <span class="close-item">&times;</span>
+                            0923 4343 5454
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-main">Thêm</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="add-item" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"> Chọn nội dung vay</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="form-search" style="width:100%">
+                        <button><i class="icon-loupe"></i></button>
+                        <input type="text" class="form-control" placeholder="Tìm kiếm ">
+                    </div>
+                    <div class="list-choose-1">
+                        <div class="item-choose-1">
+                            <label class="checkcontainer">
+                                <input type="checkbox" checked="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="box-item">
+                                <div class="txt-item">
+                                    <strong>Vay dự án</strong>
+                                    <input type="" class="form-control" name="" placeholder="Nhập số tiền" >
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item-choose-1">
+                            <label class="checkcontainer">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="box-item">
+                                <div class="txt-item">
+                                    <strong>Vay ngắn hạn</strong>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item-choose-1">
+                            <label class="checkcontainer">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="box-item">
+                                <div class="txt-item">
+                                    <strong>Vay tiêu dùng</strong>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-main">Thêm</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    </div>
+    <!-- main -->
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+
+</html>
